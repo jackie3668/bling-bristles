@@ -9,7 +9,7 @@ function App() {
       <BrowserRouter>
       <Navbar />
       <Routes>
-        <Route path='/' element={<Shop}></Route>
+        <Route path='/' element={<Shop/>}></Route>
       </Routes>
       </BrowserRouter>
     </div>
