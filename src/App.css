@@ -1,17 +1,23 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Tenor+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
 
 * {
-  font-family: 'Tenor Sans', sans-serif;
+  font-family: 'Lora', serif;
   font-family: 'Inter', sans-serif;
-  background-color: var(--background);
+  margin: 0;
+}
+
+body {
+  margin: 0;
 }
 
 :root {
-  --text: #2a0703;
-  --background: #fffbfa;
+  --text: #000000;
+  --background: #F9E7E5;
   --primary: #EED6D3;
-  --secondary: #F3E5E3;
+  --secondary: #F47CB9;
   --accent: #93655d;
-  --accent2: #CF9E99;
-  --accent3: #E6BCB6;
+  --accent2: #156669;
+  --accent3: #FFD18C;
+  --white: #ffffff;
 }
+
