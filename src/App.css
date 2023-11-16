@@ -10,6 +10,7 @@
   --light-secondary: #FFF0E2;
   --text: #000;
   --background: #fff;
+  --grey: #a38b94;
 }
 
 * {
@@ -24,6 +25,14 @@ body {
   color: black;
 }
 
-h1 {
+h1, h2, h3, h4, h5, h6 {
   font-family: 'Coustard', serif; 
+}
+
+button {
+  border-radius: 5rem;
+  border: 2px solid var(--text);
+  background-color: var(--background);
+  font-size: 1.5rem;
+  font-weight: 600;
 }

@@ -1,0 +1,68 @@
+.popular {
+  height: 90vh;
+  padding: 0;
+  margin: 0;
+}
+.wavy-border {
+  margin-top: 3rem;
+  background-image: url('../assets/wavy_secondary.png');
+  background-size: cover;
+  width: 100%;
+  height: 18vh;
+}
+
+.popular .items-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--light-primary);
+}
+
+.popular h1 {
+  text-align: center;
+  font-size: 5rem;
+  font-weight: 600;
+  position: relative;
+  text-shadow: 4px 4px var(--primary);
+}
+
+.popular span {
+  position: absolute;
+  font-size: 3rem;
+  text-wrap: nowrap;
+  top: 5rem;
+  left:4.25rem;
+  text-align: center;
+  text-shadow: 4px 4px var(--primary);
+}
+
+.popular .star-1, .popular .star-2 {
+  position: absolute;
+  width: 5rem;
+}
+
+.popular .star-1 {
+  top: -2rem;
+  left: -5rem;
+}
+
+.popular .star-2 {
+  top: 5rem;
+  left: 30rem;
+}
+
+.popular-item {
+  margin: 5rem;
+  display: flex;
+  gap: 2rem;
+}
+
+.popular button {
+  width: 12rem;
+  height: 4rem;
+  border-radius: 5rem;
+  border: 2px solid var(--text);
+  background-color: var(--background);
+  font-size: 1.5rem;
+  font-weight: 600;
+}
