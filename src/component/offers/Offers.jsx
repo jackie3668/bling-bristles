@@ -1,16 +1,36 @@
 import React from 'react'
 import './Offers.css'
+import star from '../assets/star_img.png'
+import planet from '../assets/planet_icon.png'
+import offers_image from '../assets/offers_image.png'
 
 const Offers = () => {
   return (
     <div className="offers">
-      <div className="offers-left">
-        <h1>Exclusive</h1>
-        <h2>Offers For You</h2>
-        <p>Cutest Nails In Our Shop</p>
+      <div className="wavy-border">
       </div>
-      <div className="offers-right">
-
+      <div className="offers-container">
+        <div className="offers-left">
+          <h1>EXCLUSIVE
+            <br />
+            <span>Offers For You</span>
+            <img className='star-1' src={star} alt="" />
+            <img className='star-2' src={star} alt="" />
+          </h1>
+          <p>
+          Unlock Glamour Now! Exclusive offers await! 
+          <br />
+          Shop with us until 12/31 to snag a free set of Bling Bristle trendy press-ons.
+          <br />
+          Plus, enjoy free shipping on orders over $200. 
+          Elevate your style and dive into a world of beauty! 💅✨</p>
+          <button>Shop Now</button>
+        </div>
+        <div className="offers-right">
+          <img className='offers-img'src={offers_image} alt="" />
+          {/* <img className='star-3' src={star} alt="" />
+          <img className='star-4' src={star} alt="" /> */}
+        </div>
       </div>
 
     </div>

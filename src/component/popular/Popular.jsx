@@ -12,7 +12,7 @@ const Popular = () => {
       <div className="items-wrapper">
         <h1>TRENDING 
           <br />
-          <span>NAIL STYLES</span>
+          <span>Nail Designs</span>
           <img className='star-1' src={star} alt="" />
           <img className='star-2' src={star} alt="" />
         </h1>
