@@ -1,7 +1,7 @@
 import React from 'react'
 import './Popular.css'
 import data_product from '../assets/data'
-import Item from '../hero/Item'
+import Item from '../item/Item'
 import star from '../assets/star_img.png'
 
 const Popular = () => {
