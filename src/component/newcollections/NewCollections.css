@@ -1,23 +1,32 @@
-.popular {
+.new-collections {
   padding: 0;
   margin: 0;
 }
-.popular .wavy-border {
+
+.new-collections .wavy-border {
   margin-top: 3rem;
-  background-image: url('../assets/wavy_light_primary.png');
+  background-image: url('../assets/wavy_secondary.png');
   background-size: cover;
   width: 100%;
   height: 18vh;
 }
 
-.popular .items-wrapper {
+.collections {
+  margin: 5rem 8rem 0rem 8rem;
   display: flex;
-  flex-direction: column;
   align-items: center;
-  background-color: var(--light-primary);
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  background-color: var(--secondary);
 }
 
-.popular h1 {
+.new-collections .items-wrapper {
+  background-color: var(--secondary);
+  padding-bottom: 5rem;
+}
+
+.new-collections h1 {
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -26,37 +35,37 @@
   font-size: 5rem;
   font-weight: 600;
   position: relative;
-  text-shadow: 4px 4px var(--primary);
+  text-shadow: 4px 4px var(--accent);
 }
 
-.popular span {
+.new-collections span {
   font-size: 3rem;
   text-wrap: nowrap;
   text-shadow: 4px 4px var(--primary);
 }
 
-.popular .star-1, .popular .star-2 {
+.new-collections .star-1, .new-collections .star-2 {
   position: absolute;
   width: 5rem;
 }
 
-.popular .star-1 {
+.new-collections .star-1 {
   top: -2rem;
   left: -5rem;
 }
 
-.popular .star-2 {
+.new-collections .star-2 {
   top: 5rem;
   left: 30rem;
 }
 
-.popular-item {
+.new-collections-item {
   margin: 5rem;
   display: flex;
   gap: 2rem;
 }
 
-.popular button {
+.new-collections button {
   width: 12rem;
   height: 4rem;
   border-radius: 5rem;
