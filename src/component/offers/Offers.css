@@ -51,7 +51,7 @@
   text-wrap: wrap;
   width: 45rem;
   padding: 3rem 0;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 .offers-left button {
@@ -87,29 +87,4 @@
   width: 30rem;
   margin-right: 10rem;
   z-index: 2;
-}
-
-.offers .star-3 {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 5rem;
-  z-index: 3;
-}
-
-.offers .star-4{
-  position: absolute;
-  top: 1rem;
-  left: 0;
-  width: 10rem;
-  z-index: 3;
-}
-
-.offers .polaroid {
-  position: absolute;
-  width: 45rem;
-  height: 45rem;
-  top: -3rem;
-  left: -7rem;
-  z-index: 3;
 }

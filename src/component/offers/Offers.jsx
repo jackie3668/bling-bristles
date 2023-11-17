@@ -28,8 +28,6 @@ const Offers = () => {
         </div>
         <div className="offers-right">
           <img className='offers-img'src={offers_image} alt="" />
-          {/* <img className='star-3' src={star} alt="" />
-          <img className='star-4' src={star} alt="" /> */}
         </div>
       </div>
 
