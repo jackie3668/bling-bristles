@@ -9,6 +9,7 @@
 .feature-3,
 .feature-4 {
   background-size: contain;
+  background-repeat: no-repeat;
   width: 23rem;
   height: 23rem;
   display: flex;

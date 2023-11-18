@@ -3,9 +3,6 @@ import './Navbar.css'
 import cart_icon from '../assets/cart_icon.png'
 import { Link } from 'react-router-dom';
 const Navbar = () => {
-
-  const [menu, setMenu] = useState("shop");  
-
   return (
     <div>
       <div className="fixed-bar">
@@ -16,10 +13,13 @@ const Navbar = () => {
           <Link style={{ textDecoration: 'none'}} to='/'><h1>Bling Bristles</h1></Link>
         </div>
         <ul className="nav-menu">
-          <li onClick={()=>{setMenu("shop")}}><Link style={{ textDecoration: 'none'}} to='/'>Shop</Link></li>
-          <li onClick={()=>{setMenu("men")}}><Link style={{ textDecoration: 'none'}} to='/men'>Men</Link></li>
-          <li onClick={()=>{setMenu("women")}}><Link style={{ textDecoration: 'none'}} to='/women'>Women</Link></li>
-          <li onClick={()=>{setMenu("kids")}}><Link style={{ textDecoration: 'none'}} to='/kids'>Kids</Link></li>
+          <li><Link style={{ textDecoration: 'none'}} to='/'>Home</Link></li>
+          <li><Link style={{ textDecoration: 'none'}} to='/all'>Shop All</Link></li>
+          <li><Link style={{ textDecoration: 'none'}} to='/new'>New Arrivals</Link></li>
+          <li><Link style={{ textDecoration: 'none'}} to='/sale'>Sale</Link></li>
+          <li><Link style={{ textDecoration: 'none'}} to='/about'>About</Link></li>
+          <li><Link style={{ textDecoration: 'none'}} to='/about'>FAQs</Link></li>
+          <li><Link style={{ textDecoration: 'none'}} to='/about'>Contact</Link></li>
         </ul>
         <div className="nav-login-cart">
           <Link style={{ textDecoration: 'none'}} to='/login'><button>Login</button></Link>

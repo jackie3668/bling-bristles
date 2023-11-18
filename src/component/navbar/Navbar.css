@@ -9,6 +9,7 @@
   letter-spacing: 0.05cm;
   border-bottom: 1px solid black;
 }
+
 .navbar {
   display: flex;
   justify-content: space-around;
@@ -35,8 +36,8 @@
   list-style: none;
   gap: 2rem;
   color: var(--text);
-  font-size: 1.25rem;
-  font-weight: 600;
+  font-size: 1rem;
+  font-weight: 500;
 }
 
 a {
@@ -65,7 +66,7 @@ a {
 
 .nav-login-cart button {
   text-align: center;
-  font-size: 1.25rem;
+  font-size: 1rem;
   font-weight: 600;
   cursor: pointer;
   width: 8rem;
