@@ -4,7 +4,6 @@ import { ShopContext } from '../context/ShopContext'
 import dropdown_icon from '../component/assets/dropdown_icon.png'
 import Item from '../component/item/Item.jsx'
 import ItemSale from '../component/item/ItemSale.jsx'
-import Footer from '../component/footer/Footer'
 
 const ShopCategory = (props) => {
   const {all_product} = useContext(ShopContext)
@@ -40,7 +39,6 @@ const ShopCategory = (props) => {
       <div className="shopcategory-loadmore">
         Explore More
       </div>
-      <Footer />
     </div>
   )
 }
