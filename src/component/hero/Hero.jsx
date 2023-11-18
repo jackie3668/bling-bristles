@@ -18,37 +18,7 @@ const Hero = () => {
           <img src={new_icon} alt="" />
         </div>
       </div>
-      <div class="scroll-container">
-        <div class="scroll-box">
-          <div class="scroll-content">
-            <p>✧ SUMMER SALE ✧</p>
-            <p>✧ SUMMER SALE ✧</p>
-            <p>✧ SUMMER SALE ✧</p>
-            <p>✧ SUMMER SALE ✧</p>
-            <p>✧ SUMMER SALE ✧</p>
-            <p>✧ SUMMER SALE ✧</p>
-            <p>✧ SUMMER SALE ✧</p>
-            <p>✧ SUMMER SALE ✧</p>
-            <p>✧ SUMMER SALE ✧</p>
-            <p>✧ SUMMER SALE ✧</p>
-            <p>✧ SUMMER SALE ✧</p>
-            <p>✧ SUMMER SALE ✧</p>
-            <p>✧ SUMMER SALE ✧</p>
-            <p>✧ SUMMER SALE ✧</p>
-            <p>✧ SUMMER SALE ✧</p>
-            <p>✧ SUMMER SALE ✧</p>
-            <p>✧ SUMMER SALE ✧</p>
-            <p>✧ SUMMER SALE ✧</p>
-            <p>✧ SUMMER SALE ✧</p>
-            <p>✧ SUMMER SALE ✧</p>
-            <p>✧ SUMMER SALE ✧</p>
-            <p>✧ SUMMER SALE ✧</p>
-            <p>✧ SUMMER SALE ✧</p>
-          </div>
-        </div>
-      </div>
     </div>
-
   )
 }
 

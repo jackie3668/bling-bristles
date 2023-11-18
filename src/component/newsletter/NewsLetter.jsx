@@ -1,14 +1,23 @@
 import React from 'react'
 import './NewsLetter.css'
+import star from '../assets/star_img.png'
 
 const NewsLetter = () => {
   return (
     <div className='newsletter'>
-      <h1>GET EXCLUSIVE OFFERS IN YOUR EMAIL</h1>
-      <p>Subscribe to our newsletter and let's stay in touch</p>
-      <div>
-        <input type="email" placeholder='your@email.com'/>
-        <button>Subscribe</button>
+      <div className="wavy-border">
+      </div>
+      <div className="newsletter-wrapper">
+        <h1>SUBSCRIBE 
+          <span>To Our Emails</span>
+          <img className='star-1' src={star} alt="" />
+          <img className='star-2' src={star} alt="" />
+        </h1>
+        <p>Be the first to know about new collections and exclusive offers.</p>
+        <div>
+          <input type="email" placeholder='Email'/>
+          <button>Subscribe</button>
+        </div>
       </div>
     </div>
   )

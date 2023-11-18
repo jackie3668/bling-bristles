@@ -3,14 +3,6 @@
   margin: 0;
 }
 
-.new-collections .wavy-border {
-  margin-top: 3rem;
-  background-image: url('../assets/wavy_secondary.png');
-  background-size: cover;
-  width: 100%;
-  height: 18vh;
-}
-
 .collections {
   margin: 5rem 8rem 0rem 8rem;
   display: flex;
@@ -18,45 +10,29 @@
   justify-content: center;
   flex-wrap: wrap;
   gap: 2rem;
-  background-color: var(--secondary);
+  background-color: var(--background);
 }
 
 .new-collections .items-wrapper {
-  background-color: var(--secondary);
-  padding-bottom: 5rem;
+  background-color:var(--background);
+  padding: 5rem 0;
 }
 
 .new-collections h1 {
   text-align: center;
   display: flex;
-  flex-direction: column;
   justify-content: center;
+  align-items: center;
   line-height: 0.9;
   font-size: 5rem;
   font-weight: 600;
-  position: relative;
-  text-shadow: 4px 4px var(--accent);
-}
-
-.new-collections span {
-  font-size: 3rem;
-  text-wrap: nowrap;
+  gap: 1rem;
   text-shadow: 4px 4px var(--primary);
 }
 
-.new-collections .star-1, .new-collections .star-2 {
-  position: absolute;
-  width: 5rem;
-}
-
-.new-collections .star-1 {
-  top: -2rem;
-  left: -5rem;
-}
-
+.new-collections .star-1,
 .new-collections .star-2 {
-  top: 5rem;
-  left: 30rem;
+  width: 5rem;
 }
 
 .new-collections-item {
