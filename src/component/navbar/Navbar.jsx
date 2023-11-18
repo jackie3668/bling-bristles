@@ -2,8 +2,6 @@ import React, { useState } from 'react'
 import './Navbar.css'
 import cart_icon from '../assets/cart_icon.png'
 import { Link } from 'react-router-dom';
-import arrow_icon from '../assets/arrow.png'
-
 const Navbar = () => {
 
   const [menu, setMenu] = useState("shop");  
@@ -24,7 +22,7 @@ const Navbar = () => {
           <li onClick={()=>{setMenu("kids")}}><Link style={{ textDecoration: 'none'}} to='/kids'>Kids</Link></li>
         </ul>
         <div className="nav-login-cart">
-          <Link style={{ textDecoration: 'none'}} to='/login'><button>Login<img className='arrow-icon' src={arrow_icon} alt="" /></button></Link>
+          <Link style={{ textDecoration: 'none'}} to='/login'><button>Login</button></Link>
           <Link style={{ textDecoration: 'none'}} to='/cart'><img className='cart-icon' src={cart_icon} alt="" /></Link>
           <div className="nav-cart-count">0</div>
         </div>

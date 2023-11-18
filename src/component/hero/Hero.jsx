@@ -11,9 +11,7 @@ const Hero = () => {
           <h1>SHOP NEW ARRIVALS</h1>
           <button>SHOP NOW</button>
           <img className='img-1' src={star} alt="" />
-          <img className='img-2' src={star} alt="" />
-          <img className='img-3' src={star} alt="" />
-        </div>
+          <img className='img-2' src={star} alt="" />        </div>
         <div className="hero-right">
           <img src={new_icon} alt="" />
         </div>

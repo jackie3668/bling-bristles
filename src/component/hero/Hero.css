@@ -25,15 +25,8 @@
 .hero-left .img-2 {
   position: absolute;
   width: 5rem;
-  top: 25rem;
-  left: 38rem;
-}
-
-.hero-left .img-3 {
-  position: absolute;
-  width: 5rem;
-  top: 29rem;
-  left: 10rem;
+  top: 30rem;
+  left: 45rem;
 }
 
 .hero-left h1 {
@@ -44,13 +37,16 @@
 }
 
 .hero-left button {
-  width: 18rem;
-  height: 5rem;
-  border-radius: 5rem;
-  border: 4px solid var(--text);
-  background-color: var(--background);
+  margin-top: 2rem;
   font-size: 2rem;
   font-weight: 600;
+  width: 12rem;
+  height: 4rem;
+  border-radius: 2rem;
+  background: var(--text);
+  color: var(--background);
+  cursor: pointer;
+  font-size: 1.25rem;
 }
 
 .hero-right {

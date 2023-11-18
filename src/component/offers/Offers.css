@@ -55,12 +55,15 @@
 }
 
 .offers-left button {
+  text-align: center;
+  font-size: 1.25rem;
+  font-weight: 600;
+  cursor: pointer;
   width: 12rem;
   height: 4rem;
-  border-radius: 5rem;
-  border: 2px solid var(--text);
-  font-size: 1.5rem;
-  font-weight: 600;
+  border-radius: 2rem;
+  background: var(--text);
+  color: var(--background);
 }
 
 .offers .star-1, .offers .star-2, .offers .star-3, .offers .star-4 {

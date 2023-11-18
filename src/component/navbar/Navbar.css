@@ -64,25 +64,15 @@ a {
 }
 
 .nav-login-cart button {
-  width: 175px;
-  height: 50px;
-  padding-left: 3.5rem;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  outline: none;
-  border: 2px solid var(--text);
-  background-color: var(--secondary);
-  border-radius: 75px;
-  color: var(--text);
+  text-align: center;
   font-size: 1.25rem;
   font-weight: 600;
   cursor: pointer;
-}
-
-button img {
-  width: 1.5rem;
-  height: 1.5rem;
+  width: 8rem;
+  height: 3rem;
+  border-radius: 2rem;
+  background: var(--text);
+  color: var(--background);
 }
 
 .cart-icon {
@@ -90,10 +80,6 @@ button img {
   margin-left: 1rem;
   width: 3rem;
   height: 3rem;
-}
-
-.nav-login-cart button:active {
-  background: var(--white);
 }
 
 .nav-cart-count {
@@ -107,8 +93,4 @@ button img {
   margin-top: -35px;
   border-radius: 100%;
   background: var(--secondary);
-}
-
-.nav-login-cart .arrow-icon {
-  margin-right: 0.75rem;
 }
