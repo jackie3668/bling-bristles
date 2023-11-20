@@ -274,7 +274,7 @@ let all_products = [
     new_price: 35.00,
     old_price: 40.00,
     category: ["all", "new"],
-    keywords: ["Y2K", "retro", "nostalgic", "futuristic"],
+    keywords: ["Y2K", "retro", "nostalgic", "futuristic", "metallic", "cool","dark"],
     description: "Step back in time with our Y2K press-on nails. Inspired by the Y2K aesthetic that blends retro vibes with a futuristic twist, these nails are a nod to the turn of the millennium. Whether you're feeling nostalgic or want to embrace a unique blend of styles, the Y2K nails are a must-have."
   },
   {
@@ -364,7 +364,7 @@ let all_products = [
     new_price: 35.00,
     old_price: 40.00,
     category: ["all", "new"],
-    keywords: ["cozy", "warm", "neutral", "comfort"],
+    keywords: ["cozy", "warm", "neutral", "comfort","bron"],
     description: "Wrap your nails in cozy warmth with our Cozy press-on nails. Featuring warm and neutral tones, these nails add a touch of comfort to your fingertips. Whether you're snuggled up by the fireplace or enjoying a chilly day, the Cozy nails are a perfect companion for moments of comfort and warmth."
   },
   {
@@ -374,7 +374,7 @@ let all_products = [
     new_price: 35.00,
     old_price: 40.00,
     category: ["all", "sale"],
-    keywords: ["bleeding heart", "romantic", "passionate", "dramatic"],
+    keywords: ["bleeding heart", "romantic", "passionate", "dramatic", "red", "sexy","dark"],
     description: "Express your romantic and passionate side with our Bleeding Heart press-on nails. Featuring dramatic and heart-inspired designs, these nails add a touch of romance to your style. Whether you're celebrating love or simply want to embrace a passionate vibe, the Bleeding Heart nails are a captivating choice."
   },
   {
@@ -384,7 +384,7 @@ let all_products = [
     new_price: 35.00,
     old_price: 40.00,
     category: ["all", "sale"],
-    keywords: ["milk chocolate", "brown", "warm", "indulgent"],
+    keywords: ["milk chocolate", "brown", "warm", "indulgent", "hazelnut", "opaque","abstract"],
     description: "Indulge in the rich and warm tones of our Milk Chocolate press-on nails. Inspired by the decadence of milk chocolate, these nails bring a touch of indulgence to your fingertips. Whether you're a chocolate lover or simply want to add a warm and rich vibe to your style, the Milk Chocolate nails are a delightful choice."
   },
   {
@@ -394,7 +394,7 @@ let all_products = [
     new_price: 35.00,
     old_price: 40.00,
     category: ["all", "sale"],
-    keywords: ["Zen Garden", "tranquil", "serene", "minimalist"],
+    keywords: ["Zen Garden", "tranquil", "serene", "minimalist", "black", "white" ,"abstract"],
     description: "Find tranquility in our Zen Garden press-on nails. With serene and minimalist designs inspired by Zen gardens, these nails add a touch of calm to your style. Whether you're a fan of minimalist aesthetics or simply want to create a tranquil atmosphere, the Zen Garden nails are a peaceful choice."
   },
 ];
