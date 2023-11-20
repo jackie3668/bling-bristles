@@ -10,7 +10,7 @@
   --light-secondary: #FFF0E2;
   --text: #000;
   --background: #fff;
-  --grey: #a38b94;
+  --grey: #867179;
 }
 
 * {
@@ -48,3 +48,4 @@ button {
 button:active {
   transform: scale(0.95);
 }
+
