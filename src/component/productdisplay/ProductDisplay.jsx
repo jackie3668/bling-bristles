@@ -1,4 +1,5 @@
 import React, { useContext } from 'react'
+import { Link } from 'react-router-dom';
 import { ShopContext } from '../../context/ShopContext'
 import './ProductDisplay.css'
 import star_icon from '../assets/star_icon.png'
@@ -9,7 +10,7 @@ import Item from '../item/Item'
 const ProductDisplay = ( props ) => {
   const {product} = props
   const array = []
-  const {addToCart} = useContext(ShopContext)
+  const {addToCart, addToCartNow} = useContext(ShopContext)
   
   return (
     <div className="product-details-container">
@@ -51,7 +52,7 @@ const ProductDisplay = ( props ) => {
 
           <div className="productdisplay-right-buttons">
             <button onClick={()=>{addToCart(product.id)}}>ADD TO CART</button>
-            <button>BUY IT NOW</button>
+            <Link to='/checkoutnow'><button onClick={()=>{addToCartNow(product.id)}}>BUY IT NOW</button></Link>
             <p>{product.keyword}</p>
           </div>
 
@@ -59,10 +60,12 @@ const ProductDisplay = ( props ) => {
             <p>Description</p>
             {product.description}
           </div>
+
+
         </div>
       </div>
       <div className="relatedproducts">
-        <h1>You may also like</h1>
+        <p>You may also like</p>
         <div className="relatedproducts-item">
           {all_product.map((item, index) => {
             
