@@ -1,3 +1,8 @@
+.shop-category {
+  display: flex;
+  flex-direction: column;
+}
+
 .shopcategory-banner {
   display: flex;
   justify-content: center;
@@ -53,3 +58,17 @@
   align-items: center;
   border-radius: 1.5rem;
 }
+
+.pagination {
+  align-self: center;
+  margin-bottom: 3rem;
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
+.pagination button {
+  width: 8rem;
+  height: 2.5rem;
+}
+

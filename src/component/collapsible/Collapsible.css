@@ -1,0 +1,41 @@
+.collapsible {
+  margin-top: 2rem;
+}
+
+.collapsible-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 0;
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.collapsible-header img {
+  width: 1rem;
+  cursor: pointer;
+}
+
+.collapsible-header p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.collapsible-header p img {
+  width: 1.5rem;
+}
+
+.collapsible-content {
+  padding: 1rem;
+  transition: all 0.3s ease-in-out;
+}
+
+.hidden {
+  display: none;
+}
+
+.collapsible hr {
+  opacity: 0.4;
+}

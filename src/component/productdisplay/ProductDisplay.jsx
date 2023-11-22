@@ -6,6 +6,7 @@ import star_icon from '../assets/star_icon.png'
 import star_dull_icon from '../assets/star_dull_icon.png'
 import all_product from '../assets/all_product'
 import Item from '../item/Item'
+import Collapsible from '../collapsible/Collapsible';
 
 const ProductDisplay = ( props ) => {
   const {product} = props
@@ -61,7 +62,7 @@ const ProductDisplay = ( props ) => {
             {product.description}
           </div>
 
-
+          <Collapsible />
         </div>
       </div>
       <div className="relatedproducts">
