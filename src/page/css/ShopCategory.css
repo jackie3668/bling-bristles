@@ -44,7 +44,7 @@
 }
 
 .shopcategory-products {
-  padding: 3rem 2rem;
+  padding: 1rem 2rem;
   display: flex;
   flex-wrap: wrap;
   gap: 2rem;
@@ -61,7 +61,7 @@
 
 .pagination {
   align-self: center;
-  margin-bottom: 3rem;
+  margin: 3rem;
   display: flex;
   gap: 2rem;
   align-items: center;

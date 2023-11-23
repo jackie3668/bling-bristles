@@ -22,8 +22,7 @@ const Navbar = () => {
           <li><Link style={{ textDecoration: 'none'}} to='/new'>New Arrivals</Link></li>
           <li><Link style={{ textDecoration: 'none'}} to='/sale'>Sale</Link></li>
           <li><Link style={{ textDecoration: 'none'}} to='/about'>About</Link></li>
-          <li><Link style={{ textDecoration: 'none'}} to='/about'>FAQs</Link></li>
-          <li><Link style={{ textDecoration: 'none'}} to='/about'>Contact</Link></li>
+          <li><Link style={{ textDecoration: 'none'}} to='/faqs'>FAQs</Link></li>
         </ul>
         <div className="nav-login-cart">
           <Link style={{ textDecoration: 'none'}} to='/login'><button>Login</button></Link>

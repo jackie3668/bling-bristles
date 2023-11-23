@@ -1,0 +1,36 @@
+.faqs-container {
+  max-width: 800px;
+  margin: 4rem auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.faqs-container h2 {
+  margin-bottom: 2rem;
+}
+
+.faq {
+  width: 100%;
+  padding: 0.5rem 1.5rem;
+  margin-bottom: 20px;
+  background-color: var(--light-secondary);
+}
+
+.hidden {
+  display: none;
+}
+
+.collapsible-header {
+  color: var(--text);
+}
+
+.collapsible-header p {
+  cursor: pointer;
+}
+
+.collapsible-header p:hover {
+  text-decoration: underline;
+}

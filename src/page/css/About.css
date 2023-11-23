@@ -1,0 +1,97 @@
+.main .wavy-border {
+  margin-top: 3rem;
+  background-image: url('../../component/assets/wavy_accent.png');
+  background-size: cover;
+  width: 100%;
+  height: 12vh;
+}
+
+.about .reverse {
+  margin-top: -2rem;
+  transform: scaleY(-1);
+}
+
+.main-container {
+  background-color: var(--accent);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  padding: 0rem 15rem 3rem 15rem
+}
+
+.about-section {
+  margin-bottom: 40px;
+}
+
+.about-section p {
+  font-size: 1.25rem;
+  letter-spacing: 0.35px;
+  line-height: 2.5rem;
+}
+
+.about-section-header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.about-section-header img {
+  width: 3rem;
+}
+
+.value-container {
+  background-color: var(--secondary);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  padding: 0rem 15rem 3rem 15rem
+}
+
+.team-container {
+  background-color: var(--light-primary);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  padding: 0rem 15rem 3rem 15rem
+}
+
+.value .wavy-border {
+  background-image: url('../../component/assets/wavy_secondary.png');
+  background-size: cover;
+  width: 100%;
+  height: 12vh;
+}
+
+.team .wavy-border {
+  background-image: url('../../component/assets/wavy_light_primary.png');
+  background-size: cover;
+  width: 100%;
+  height: 12vh;
+}
+
+.team-member {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.team-member h3 {
+  margin-bottom: 5px;
+}
+
+.team-member-title {
+  text-decoration: underline;
+  font-style: italic;
+}
+
+.team-member p {
+  margin-bottom: 15px;
+}

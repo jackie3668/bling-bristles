@@ -1,7 +1,6 @@
 import React from 'react'
 import './Offers.css'
 import star from '../assets/star_img.png'
-import planet from '../assets/planet_icon.png'
 import offers_image from '../assets/offers_image.png'
 
 const Offers = () => {

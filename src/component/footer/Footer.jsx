@@ -22,31 +22,31 @@ const Footer = () => {
     <div className='footer'>
       <div className="footer-top">
         <div className="footer-logo">
-          <Link style={{ textDecoration: 'none'}} to='/'><h1>Bling Bristles</h1></Link>
+          <Link style={{ textDecoration: 'none'}} onClick={() => window.scrollTo(0, 0)} to='/'><h1>Bling Bristles</h1></Link>
         </div>
         <div className="footer-info">
           <h3>Information</h3>
           <ul>
-            <li>Home</li>
-            <li>About</li>
-            <li>FAQs</li>
-            <li>Blog</li>
-            <li>Contact</li>
+            <li><Link style={{ textDecoration: 'none'}} onClick={() => window.scrollTo(0, 0)} to='/'>Home</Link></li>
+            <li><Link style={{ textDecoration: 'none'}} onClick={() => window.scrollTo(0, 0)} to='/about'>About</Link></li>
+            <li><Link style={{ textDecoration: 'none'}} onClick={() => window.scrollTo(0, 0)} to='/faqs'>FAQs</Link></li>
+            <li><Link style={{ textDecoration: 'none'}} onClick={() => window.scrollTo(0, 0)} to='/blog'>Blog</Link></li>
+            <li><Link style={{ textDecoration: 'none'}} onClick={() => window.scrollTo(0, 0)} to='/contact'>Contact</Link></li>
           </ul>
         </div>
         <div className="footer-shop">
           <h3>Help Center</h3>
           <ul>
-            <li>Shop</li>
-            <li>Privacy Policy</li>
-            <li>Shipping Policy</li>
-            <li>Refund Policy</li>
-            <li>Terms of Service</li>
+            <li><Link style={{ textDecoration: 'none'}} onClick={() => window.scrollTo(0, 0)} to='/'>Shop</Link></li>
+            <li><Link style={{ textDecoration: 'none'}} onClick={() => window.scrollTo(0, 0)} to='/faqs'>Privacy Policy</Link></li>
+            <li><Link style={{ textDecoration: 'none'}} onClick={() => window.scrollTo(0, 0)} to='/faqs'>Shipping Policy</Link></li>
+            <li><Link style={{ textDecoration: 'none'}} onClick={() => window.scrollTo(0, 0)} to='/faqs'>Refund Policy</Link></li>
+            <li><Link style={{ textDecoration: 'none'}} onClick={() => window.scrollTo(0, 0)} to='/faqs'>Terms of Service</Link></li>
           </ul>
         </div>
         <div className="footer-brand">
           <h3>Bling Bristles</h3>
-          <p>Write something enticing about your stored here. What makes your store special? Why should people buy something from you?</p>
+          <p>Discover a store that blends style and affordability seamlessly. Elevate your look with our exclusive fashion and accessories. Your unique style journey starts here. Shop with us today!</p>
         </div>
       </div>
 

@@ -8,6 +8,8 @@ import Cart from './page/Cart';
 import LoginSignup from './page/LoginSignup';
 import Footer from './component/footer/Footer';
 import QuickCart from './page/QuickCart';
+import About from './page/About';
+import FAQs from './page/FAQs';
 
 function App() {
   return (
@@ -24,6 +26,8 @@ function App() {
         </Route>
         <Route path='/cart' element={<Cart/>}></Route>
         <Route path='/checkoutnow' element={<QuickCart/>}></Route>
+        <Route path='/about' element={<About/>}></Route>
+        <Route path='/faqs' element={<FAQs/>}></Route>
         <Route path='/login' element={<LoginSignup />}></Route>
       </Routes>
       <Footer />
