@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/bling-bristles/static/css/main.09403a93.css",
-    "main.js": "/bling-bristles/static/js/main.a0ab0c90.js",
+    "main.js": "/bling-bristles/static/js/main.187b7c66.js",
     "static/media/product_23.jpg": "/bling-bristles/static/media/product_23.65713cd6695802de050e.jpg",
     "static/media/product_21.jpg": "/bling-bristles/static/media/product_21.234e912123c254bb7662.jpg",
     "static/media/product_30.jpg": "/bling-bristles/static/media/product_30.c7a8978d958ab74344f1.jpg",
@@ -59,10 +59,10 @@
     "static/media/youtube.svg": "/bling-bristles/static/media/youtube.b0844466fbff4aff637195b43a02f57a.svg",
     "static/media/facebook.svg": "/bling-bristles/static/media/facebook.ae1500a7c5f300ebfb8a05225acaebd7.svg",
     "main.09403a93.css.map": "/bling-bristles/static/css/main.09403a93.css.map",
-    "main.a0ab0c90.js.map": "/bling-bristles/static/js/main.a0ab0c90.js.map"
+    "main.187b7c66.js.map": "/bling-bristles/static/js/main.187b7c66.js.map"
   },
   "entrypoints": [
     "static/css/main.09403a93.css",
-    "static/js/main.a0ab0c90.js"
+    "static/js/main.187b7c66.js"
   ]
 }
